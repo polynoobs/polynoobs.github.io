@@ -48,6 +48,8 @@ markdown_extensions:
   - toc:
       permalink: true
 
+  - obsidian_media_mkdocs
+
 plugins:
   - search
   - roamlinks
@@ -59,6 +61,7 @@ plugins:
   #     categories:
   #       - categories
   #       - tags
+  - obsidian-bridge
 
 extra_javascript:
   - javascripts/mathjax.js
